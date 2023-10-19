@@ -1,0 +1,11 @@
+apiVersion: eksctl.io/v1alpha5
+Kind: ClusterConfig
+
+metadata:
+  name: veerproj5clsuter
+  region: us-east-1
+
+nodeGroups:
+  - name: nodeGroups-1
+    instanceType: t3.micro
+    desiredCapacity: 2

@@ -1,5 +1,4 @@
-                                                         ------------------  **Capstone Project Overview**  ------------------  
-
+                                      **Capstone Project Overview**  
                                                              
 
 Final project of Cloud DevOps Engineer Courses to apply our skills/knowledge on various Cloud DevOps topics which we learned throughout this course. , The purpose of the Cloud DevOps capstone project is to give you a chance to combine what we have

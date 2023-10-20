@@ -1,4 +1,6 @@
-                                                                      ** Capstone Project  **
+                                                         ------------------  **Capstone Project Overview**  ------------------  
+
+                                                             
 
 Final project of Cloud DevOps Engineer Courses to apply our skills/knowledge on various Cloud DevOps topics which we learned throughout this course. , The purpose of the Cloud DevOps capstone project is to give you a chance to combine what we have
 learned throughout the program. This project helps us an important part of individuals portfolio that will help to achieve our cloud development-related career goals.
@@ -12,8 +14,14 @@ Major Components I used for this Project as below.
 - Dockerhub
 - Github
 
-1.	Create the CircleCI account,addd the AWS credentials as environment variables. 
-    Configure `AWS_ACCESS_KEY_ID',  'AWS_SECRET_ACCESS_KEY`, 'AWS_DEFAULT_REGION`
+1.	Create the CircleCI account,addd following AWS credentials as environment variables to Configure
+    
+    **AWS_ACCESS_KEY_ID**
+  	**AWS_SECRET_ACCESS_KEY**
+  	**AWS_DEFAULT_REGION**
+  	**Docker user**
+  	**Docker pass**
+
   	as CircleCI project or context environment variables.
 
 3.	Create a GitHub repository.

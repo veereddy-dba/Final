@@ -87,4 +87,4 @@ workflows:
       - build_docker_push:
           requires: [checkhadolint]
       - deploy_app:
-          requires: [build_pushdock]
+          requires: [build_docker_push]

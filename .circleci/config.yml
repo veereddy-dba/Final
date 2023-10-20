@@ -62,7 +62,7 @@ jobs:
           command: |
             docker login -u="${DOCKER_USER}" -p="${DOCKER_PASS}"
             docker push ${DOCKER_IMAGE}
-  deploy-app:
+  deploy_app:
     docker:
       - image: 'cimg/base:stable'
     steps:
@@ -86,5 +86,5 @@ workflows:
       - checkhadolint
       - build_docker_push:
           requires: [checkhadolint]
-      - deploy-app:
+      - deploy_app:
           requires: [build_pushdock]

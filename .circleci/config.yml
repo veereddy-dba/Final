@@ -80,11 +80,11 @@ jobs:
           resource-name: deployment/proj5
           show-kubectl-command: true
 
-workflows:
-  default:
-    jobs:
-      - checkhadolint
-      - build_docker_push:
-          requires: [checkhadolint]
-      - deploy_app:
-          requires: [build_docker_push]
+# workflows:
+#   default:
+#     jobs:
+#       - checkhadolint
+#       - build_docker_push:
+#           requires: [checkhadolint]
+#       - deploy_app:
+#           requires: [build_docker_push]

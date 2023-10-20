@@ -6,8 +6,9 @@ WORKDIR /proj5
 ## Step 2: Copy source code to working directory
 COPY . flaskapp/app.py /proj5/
 
-## Step 3:Install packages from requirements.txt and  hadolint ignore=DL3013
-
+## Step 3:
+# Install packages from requirements.txt
+# hadolint ignore=DL3013
 RUN pip install --no-cache-dir --upgrade pip &&\
     pip install --no-cache-dir --trusted-host pypi.python.org -r requirements.txt
 

@@ -1,0 +1,10 @@
+GitHub url : https://github.com/veereddy-dba/Final/ 
+Circle CI _all stages passed.PNG
+circleci docker upload.PNG
+Deployment successfully_Access the Application .PNG
+Docker uploaded into HUB.PNG
+EC2_ClusterNodes.PNG 
+Failed lint.PNG 
+kubectl command output.PNG 
+Kubernetes cluster_deployed .PNG 
+Successful lint.PNG
